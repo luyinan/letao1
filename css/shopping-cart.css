@@ -1,0 +1,83 @@
+/* 固定头部 */
+.lt-header {
+  line-height: 44px;
+  background-color:#046691;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.lt-header .mui-title{
+	line-height: 50px;
+	color: #fff;
+}
+.lt-header a{
+	color: #fff;
+}
+/*.lt-header input{
+	width: 75%;
+	height: 35px;
+	margin: 0 auto;
+}*/
+/*底部导航栏*/
+.lt-footer{
+	background-color: #046691;
+	padding-top: 3px;
+}
+.lt-footer .mui-item{
+	display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+.lt-footer .mui-item.mui-active{
+	color: orange; 
+}
+.lt-footer .mui-item span[class^="mui"]{
+	display: block;
+}
+/*中间部分*
+/*购物车*/
+.content{
+	padding-top: 30px;
+	width: 100%;
+}
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right:60px;
+	width: 100%;
+}
+.mui-table-view .mui-media-object{
+	line-height: 42px;
+    max-width: 75px;
+    height: 80px;
+}
+.ell-p{
+	font-size: 16px;
+	color: #666;
+}
+.span-dv{
+	margin-top: 5px;
+}
+ .span-dv .span-noe{
+	color: red;
+	font-size: 16px;
+}
+ .span-dv .span-tow{
+ 	font-size: 14px;
+ 	color:#8f8d8d;
+ }
+
+ .span-dv .span-ringht{
+ 	float: right;
+ 	font-size: 14px;
+ 	color:#949291;
+ }
+  .span-dv p{
+  	font-size: 16px;
+  	color:#8f8d8d;
+  	line-height: 20px;
+  }

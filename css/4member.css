@@ -1,0 +1,86 @@
+/* 固定头部 */
+.lt-header {
+  line-height: 44px;
+  background-color:#046691;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.lt-header .mui-title{
+	line-height: 50px;
+	color: #fff;
+}
+.lt-header a{
+	color: #fff;
+}
+.lt-header input{
+	width: 75%;
+	height: 35px;
+	margin: 0 auto;
+}
+/*底部导航栏*/
+.lt-footer{
+	background-color: #046691;
+	padding-top: 3px;
+}
+.lt-footer .mui-item{
+	display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+.lt-footer .mui-item.mui-active{
+	color: orange; 
+}
+.lt-footer .mui-item span[class^="mui"]{
+	display: block;
+}
+/*中间部分*/
+/**/
+.le-ber{
+	margin: 0 auto;
+}
+.le-ber .ber-li{
+	padding-left: 30px;
+}
+.ber-li img{
+	float:left;
+	width: 50px;
+	margin-right: 12px;
+}
+.ber-li p{
+	font-size: 18px;
+	color:#000;
+	margin-top: 5px;
+}
+.ber-li span{
+	font-size: 14px;
+	color:#ccc;
+}
+.le-ber a{
+	font-size: 18px;
+	height: 55px;
+	line-height: 40px;
+}
+/*按钮*/
+.input-sub{
+	margin: 0
+}
+.mui-bar-nav~.mui-content{
+	padding-top: 30px;
+}
+.mui-content button{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 8px 0;
+	background-color: #fff;
+	color:#333;
+
+	
+}

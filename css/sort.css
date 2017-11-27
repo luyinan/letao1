@@ -1,0 +1,71 @@
+/* 固定头部 */
+.lt-header {
+  line-height: 44px;
+  background-color:#046691;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.lt-header .mui-title{
+	line-height: 50px;
+	color: #fff;
+}
+.lt-header a{
+	color: #fff;
+}
+.lt-header input{
+	width: 75%;
+	height: 35px;
+	margin: 0 auto;
+}
+/*底部导航栏*/
+.lt-footer{
+	background-color: #046691;
+	padding-top: 3px;
+}
+.lt-footer .mui-item{
+	display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+.lt-footer .mui-item.mui-active{
+	color: orange; 
+}
+.lt-footer .mui-item span[class^="mui"]{
+	display: block;
+}
+/*中间部分*/
+/*导航图*/
+.lt-options {
+	width: 100%;
+}	
+}
+/**/
+ul.content1-ul{
+	width: 100%;
+}
+li.mui-table-view-cell{
+	float: left;
+	padding: 0;
+	width: 33.3333%;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	margin: 0;
+	width: 100%;
+}
+li.mui-table-view-cell img{
+	width: 100%;
+}
+.mui-control-content.mui-active{
+	height: 200px;
+	margin-left: 20px;
+}
+.mui-control-content.mui-active:after{
+	
+}

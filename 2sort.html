@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>分类页面</title>
+    <link rel="stylesheet" href="./css/mui.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/sort.css">
+
+    <link rel="stylesheet" href="">
+</head>
+<!-- 固定头部 -->
+<header class="lt-header mui-bar mui-bar-nav ">
+    <a class="mui-action-back mui-icon fa fa-chevron-left  mui-pull-left"></a>
+    <input type="text">
+    <a id="lt-search" class="lt-search mui-icon fa fa-search mui-pull-right"></a>
+</header>
+<!-- 固定底部导航 -->
+<footer class="lt-footer mui-bar mui-bar-tab">
+    <a class="mui-item" href="1index.html">
+        <span class="fa fa-home"></span>
+        <span class="mui-tab-label">首页</span>
+    </a>
+    <a class="mui-item mui-active" href="#">
+        <span class="fa fa-bars"></span>
+        <span class="mui-tab-label">分类</span>
+    </a>
+    <a class="mui-item " href="3shopping-cart.html">
+        <span class="fa fa-shopping-cart"></span>
+        <span class="mui-tab-label">购物车</span>
+    </a>
+    <a class="mui-item" href="4member.html">
+        <span class="fa fa-user"></span>
+        <span class="mui-tab-label">会员中心</span>
+    </a>
+</footer>
+<!-- 中间部分 -->
+<div class="mui-content mui-row mui-fullscreen lt-options">
+    <div class="mui-col-xs-3">
+        <div id="segmentedControls" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
+                <a class="mui-control-item" href="#content1" style="width: 100%;">运动馆</a>
+                <a class="mui-control-item" href="#content2" style="width: 100%;">女士馆</a>
+                <a class="mui-control-item" href="#content3" style="width: 100%;">男士馆</a>
+                <a class="mui-control-item" href="#content4" style="width: 100%;">帆布馆</a>
+                <a class="mui-control-item" href="#content4" style="width: 100%;">户外馆</a>
+                <a class="mui-control-item" href="#content4" style="width: 100%;">就不馆</a>
+        </div>
+    </div>
+    <div id="segmentedControlContents" class="mui-col-xs-9" style="border-left: 1px solid #c8c7cc;">
+        <div id="content1" class="lt- mui-control-content mui-active">
+            <ul class="mui-table-view content1-ul">
+                <li class="mui-table-view-cell">
+                    <a href="">
+                        <img src="./images/brand1.png" alt="">
+                    </a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a href="">
+                        <img src="./images/brand2.png" alt="">
+                    </a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a href="">
+                        <img src="./images/brand3.png" alt="">
+                    </a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a href="">
+                        <img src="./images/brand4.png" alt="">
+                    </a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a href="">
+                        <img src="./images/brand5.png" alt="">
+                    </a>
+                </li>
+                <li class="mui-table-view-cell ">
+                    <a href="">
+                        <img src="./images/brand6.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="content2" class="mui-control-content">
+            <ul class="mui-table-view">
+                <li class="mui-table-view-cell">第2个选项卡子项-1</li>
+                <li class="mui-table-view-cell">第2个选项卡子项-2</li>
+                <li class="mui-table-view-cell">第2个选项卡子项-3</li>
+                <li class="mui-table-view-cell">第2个选项卡子项-4</li>
+                <li class="mui-table-view-cell">第2个选项卡子项-5</li>
+                <li class="mui-table-view-cell">第2个选项卡子项-6</li>
+            </ul>
+        </div>
+        <div id="content3" class="mui-control-content">
+            <ul class="mui-table-view">
+                <li class="mui-table-view-cell">第3个选项卡子项-1</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-2</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-3</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-4</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-5</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-6</li>
+            </ul>
+        </div>
+        <div id="content4" class="mui-control-content">
+            <ul class="mui-table-view">
+                <li class="mui-table-view-cell">第3个选项卡子项-1</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-2</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-3</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-4</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-5</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-6</li>
+            </ul>
+        </div>
+        <div id="content6" class="mui-control-content">
+            <ul class="mui-table-view">
+                <li class="mui-table-view-cell">第3个选项卡子项-1</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-2</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-3</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-4</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-5</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-6</li>
+            </ul>
+        </div>
+        <div id="content6" class="mui-control-content">
+            <ul class="mui-table-view">
+                <li class="mui-table-view-cell">第3个选项卡子项-1</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-2</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-3</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-4</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-5</li>
+                <li class="mui-table-view-cell">第3个选项卡子项-6</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 分类 -->
+
+
+<body>
+<script src="./js/mui.min.js"></script>
+<script src="./js/index.js"></script>
+<script>
+
+</script>
+</body>
+</html>
